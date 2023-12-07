@@ -17,7 +17,7 @@ class Application(Page):
 def test_loadpage():
     application = Application()
     application.loadpage() 
-    expect(application.get_by_role('button', name='Recherche Google')).to_be_visible
+    expect(application.get_by_role('button', name='Recherche Google ')).to_be_visible
 
 
 
